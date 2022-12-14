@@ -1,0 +1,135 @@
+body {    
+    height: 100%;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    font-size: 1.2rem;
+}
+
+#logo {
+    font-size: 2.3rem;
+    color: #5d28d0;
+    font-family: 'Akshar', sans-serif;
+}
+
+.container h5 {
+    font-style: italic;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    opacity: 85%;    
+}
+
+.gradient {
+    background-color: #00DBDE;
+    background-image: linear-gradient(59deg, #00DBDE 0%, #FC00FF 100%);
+ 
+}
+
+.page-header {
+    padding-top: 8rem;    
+    color: white;
+}
+
+.page-header button {
+    font-size: 1.2rem;
+}
+
+.feature {
+    color: #fff;    
+}
+.feature ul {
+    padding-left: 2rem;
+    list-style-type: none;
+}
+.feature ul li {
+    padding-left: 2rem;
+    background-image: url("img/check.svg");
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+.fa-regular {
+    color: #fff;
+}
+
+.icon {
+    color: #fff;
+    height: 5rem;
+    width: 5rem;    
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery {
+    background-color: #f8f9fb;
+}
+
+.gallery img {
+    border-radius: 5%;
+}
+
+.services {
+    color: #fff;    
+}
+
+.services button {
+    margin-bottom: 1.2rem;
+}
+
+.testimonial-grid {    
+    display: grid;
+    gap: 1.5rem;    
+    width: 80%;     
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-inline: auto; 
+}
+
+.testimonial {
+    padding: 2rem;
+    border-radius: .5rem;     
+}
+
+
+@media (min-width: 70em) {
+    .grid-col-span-2 {
+        grid-column: span 2;
+    }
+    .testimonial-grid {      
+        grid-template-columns: repeat(4, 1fr);   
+        display: grid;
+        gap: 1.5rem;             
+    }
+    .testimonial:last-child {
+        grid-column-start: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+}
+
+.position {
+    font-style: italic;    
+    opacity: 85%;
+    line-height: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.contact {
+    color: #fff;
+    padding-bottom: 5rem;   
+}
+
+footer {
+    background-color: #f8f9fb;
+    color: #5d28d0;
+    margin: 0;
+    padding: 1.5rem;
+}
+
+
+
+
